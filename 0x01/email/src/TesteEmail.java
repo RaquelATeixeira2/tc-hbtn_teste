@@ -4,7 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class TesteEmail {
+public class TesteEmail{
 
     @Test 
     public void testar_email_com_arroba() {
