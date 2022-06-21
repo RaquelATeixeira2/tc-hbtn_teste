@@ -2,7 +2,7 @@ import java.sql.Date;
 import java.util.Calendar;
 
 public class Person{
-    private String nome;
+    private String name;
     private String surname;
     private Date birthDate;
     private boolean anotherCompanyOwner;
@@ -10,9 +10,9 @@ public class Person{
     private boolean publicServer;
     private float salary;
     
-    public Person(String nome, String surname, Date birthDate, boolean anotherCompanyOwner, boolean pensioner,
+    public Person(String name, String surname, Date birthDate, boolean anotherCompanyOwner, boolean pensioner,
             boolean publicServer) {
-        this.nome = nome;
+        this.name = name;
         this.surname = surname;
         this.birthDate = birthDate;
         this.anotherCompanyOwner = anotherCompanyOwner;
@@ -26,11 +26,11 @@ public class Person{
     public void setSalary(float salary) {
         this.salary = salary;
     }
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
     public String getSurname() {
         return surname;
