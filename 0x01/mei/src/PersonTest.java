@@ -23,7 +23,7 @@ public class PersonTest {
     }
 
     @Test
-    public void person_is_MEI() {
+    public void person_is_MEI(){
         person.setPensioner(false);
         person.setAnotherCompanyOwner(false);
         person.setPublicServer(false);
