@@ -31,7 +31,7 @@ public class PersonTest {
     }
 
     @Test
-    public void person_is_not_MEI() {
+    public void person_is_not_MEI(){
         Assertions.assertFalse(person.isMei());
     }
 }
