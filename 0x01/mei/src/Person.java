@@ -71,7 +71,7 @@ public class Person{
         return getSalary() * 12;
     }
 
-    public boolean isMEI(){
+    public boolean isMei(){
         int age = LocalDate.now().getYear() - this.birthDate;
         if(calculateYearlySalary() < 130000 && age > 18 && !anotherCompanyOwner && !pensioner && !publicServer){
             return true;
